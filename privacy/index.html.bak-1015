@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy · BackMy.SI</title>
+<meta name="description" content="What BackMy.SI keeps about builders, why, and how to be removed.">
+<link rel="icon" href="/img/favicon.png">
+<link rel="stylesheet" href="/fonts/fonts.css">
+<style>
+:root{--bg:#1c1917;--ink:#f3efe6;--muted:#a8a29e;--pink:#ff3fa4;--yellow:#ffd60a;--green:#2ac84a}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+main{max-width:640px;margin:0 auto;padding:40px 20px 56px}
+h1{font-family:Orbitron,sans-serif;font-size:26px;margin:0 0 6px}
+h2{font-family:Orbitron,sans-serif;font-size:16px;letter-spacing:.5px;color:var(--yellow);margin:28px 0 6px}
+p,li{margin:0 0 10px}
+a{color:var(--ink);text-decoration-color:var(--pink);text-underline-offset:3px}
+.lead{color:var(--muted)}
+footer{max-width:640px;margin:0 auto;padding:0 20px 40px;color:var(--muted);font-size:14px}
+</style></head>
+<body><main>
+<h1>Privacy</h1>
+<p class="lead">Short and plain. Last updated October 2026.</p>
+
+<h2>What we keep</h2>
+<p>Only things you've already made public: your handle, links to your work and tip jar, a line about what you built, and whether you've said yes to being featured. We never ask for your email, address or payment details.</p>
+
+<h2>Why</h2>
+<p>To ask if you'd like a card on the board and an X post, and, if you say yes, to show them. We rely on your yes for anything we publish, and on a legitimate interest for keeping the short note while we wait for your reply.</p>
+
+<h2>How long</h2>
+<ul>
+<li>If you don't reply, we delete our note about you after 3 months.</li>
+<li>If you say no, we delete it straight away and won't ask again.</li>
+<li>If you're featured, your card stays until you ask us to take it down.</li>
+</ul>
+
+<h2>Removal</h2>
+<p>Message <a href="https://x.com/backmysi">@backmysi</a> on X and we'll remove your card, page and share picture the same day. X may keep showing an old preview picture for a few days after that, which we can't control.</p>
+
+<h2>Your rights</h2>
+<p>You can ask to see, correct or delete what we hold about you at any time, through the same message. If you're unhappy with how we've handled it, you can complain to the <a href="https://ico.org.uk/make-a-complaint/">ICO</a>.</p>
+
+<h2>On this site</h2>
+<p>No cookies, no tracking, no ads. Fonts are loaded from this site, not from anyone else.</p>
+</main>
+<footer><a href="/">← Back to the board</a></footer>
+</body></html>
