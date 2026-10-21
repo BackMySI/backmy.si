@@ -48,6 +48,18 @@ h2{font-family:Orbitron,sans-serif;font-size:17px;letter-spacing:1px;margin:0 0 
 .btn:hover,.btn:focus{filter:brightness(1.1)}
 .act p{margin:12px 0 0;color:var(--muted)}
 footer{color:var(--muted);font-size:14px;margin-top:56px;border-top:1px solid rgba(243,239,230,.15);padding-top:18px}
+
+/* phi system: one rule everywhere */
+:root{--phi:1.618;--s0:1rem;--s1:calc(var(--s0)*1.618);--s2:calc(var(--s1)*1.618);--s3:calc(var(--s2)*1.618)}
+main{max-width:min(92vw,61.8rem);margin:0 auto;padding:var(--s2) var(--s1)}
+h1{font-size:clamp(1.618rem,4.2vw,2.618rem);line-height:1.236}
+main>*+*{margin-top:var(--s2)}
+.mosaic{columns:3 16rem;column-gap:var(--s1)}
+.pin{break-inside:avoid;margin:0 0 var(--s1);padding:var(--s1);border-radius:1rem;background:#111;border:1px solid #222;transform:rotate(var(--r,0deg))}
+.pin .ph{aspect-ratio:1.618/1;border-radius:.618rem;background:#1d1d1d;margin-bottom:var(--s0)}
+.pin.tall .ph{aspect-ratio:1/1.618}
+.pin small{color:var(--muted)}
+@media (prefers-reduced-motion:reduce){.pin{transform:none;transition:none}}
 </style>
 </head>
 <body>
@@ -55,7 +67,7 @@ footer{color:var(--muted);font-size:14px;margin-top:56px;border-top:1px solid rg
 <header>
   <picture>
     <source srcset="img/logo.png" media="(prefers-reduced-motion: reduce)">
-    <img class="logo" src="img/logo-anim.gif" width="600" height="600" alt="BackMy.SI logo: colourful blobs around a green ring filling up to 100%">
+    <img class="logo" src="img/logo.png" width="600" height="600" alt="BackMy.SI logo: colourful blobs around a green ring filling up to 100%">
   </picture>
 </header>
 <main>
@@ -63,18 +75,13 @@ footer{color:var(--muted);font-size:14px;margin-top:56px;border-top:1px solid rg
   <p class="kicker">Nobody's noticed yet. <b>We find them first.</b></p>
 
   <p class="soon-line">First pins land soon.</p>
-  <!-- Categories: only shown once they hold a card. Remove "hidden" from a group when its first card goes in. -->
-  <section class="board" aria-label="The board" hidden>
-    <div class="cat" data-cat="tools" hidden><h2>TOOLS</h2></div>
-    <div class="cat" data-cat="making" hidden><h2>MAKING</h2></div>
-    <div class="cat" data-cat="art-sound" hidden><h2>ART &amp; SOUND</h2></div>
-  </section>
+<section class="mosaic" aria-label="Board"></section>
 
   <section class="trust" aria-labelledby="trust-h">
     <h2 id="trust-h">HOW WE PLAY IT</h2>
     <ul>
       <li><b>They say yes first.</b> <span>Nobody goes on the board without asking.</span></li>
-      <li><b>We check every lead.</b> <span>Real person, real work, nothing dodgy.</span></li>
+      <li><b>We check every lead.</b></li>
       <li><b>We never touch the money.</b> <span>If they have a tip jar, it's theirs, and tips go straight to them.</span></li>
       <li><b>Gone the same day.</b> <span>Ask and the card comes down. <a href="/privacy/">How we handle info</a>.</span></li>
     </ul>
